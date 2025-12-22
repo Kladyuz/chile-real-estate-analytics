@@ -1,0 +1,15 @@
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Entornos virtuales (si creaste uno)
+env/
+venv/
+.venv/
+
+# Archivos de sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Datos sensibles (opcional: si tus CSV fueran gigantes o privados, irían aquí)
+# Por ahora, como son pequeños y es portfolio, los dejaremos subir.
