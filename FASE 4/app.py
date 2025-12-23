@@ -15,7 +15,7 @@ analizando el **Precio por m²** y tendencias de mercado.
 # Usamos caché para que no recargue el CSV cada vez que tocas un botón (Eficiencia)
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\javie\Desktop\Javier Ingeniero\Portfolio_Projects\proyecto_inmobiliario\FASE 3\datos_inmobiliarios_procesados.csv")
+    df = pd.read_csv("FASE 3/datos_inmobiliarios_procesados.csv")
     return df
 
 df = load_data()
